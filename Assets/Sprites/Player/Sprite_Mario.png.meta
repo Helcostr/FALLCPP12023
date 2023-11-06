@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_run_4
+      name: mario_blockrun_0
       rect:
         serializedVersion: 2
         x: 54
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_run_5
+      name: mario_blockrun_1
       rect:
         serializedVersion: 2
         x: 71
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mario_run_6
+      name: mario_blockrun_2
       rect:
         serializedVersion: 2
         x: 88
@@ -1452,14 +1452,14 @@ TextureImporter:
       mario_attack_1: -1292485608
       mario_attack_2: -2125689428
       mario_attack_3: 76658918
+      mario_blockrun_0: 1858040507
+      mario_blockrun_1: 1259717681
+      mario_blockrun_2: 808308675
       mario_idle_1: -1674928849
       mario_jump_1: -249206125
       mario_jump_2: 202046271
       mario_run_2: 449391614
       mario_run_3: -509732995
-      mario_run_4: 1858040507
-      mario_run_5: 1259717681
-      mario_run_6: 808308675
       mario_stop_1: 1595240438
       mario_stop_2: -334536248
   mipmapLimitGroupName: 
