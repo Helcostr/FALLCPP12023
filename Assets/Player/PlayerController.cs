@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,7 +15,16 @@ public class PlayerScript : MonoBehaviour {
     Animator anim;
 
     //Movement Vars
-    public float speed = 2.0f;
+    [SerializeField]
+    private float baseSpeed = 2.0f;
+    [SerializeField]
+    private float speedMod = 1f;
+    [SerializeField]
+    private IEnumerator isSpeedier;
+    private float speed {
+        get => baseSpeed * speedMod;
+        set {}
+    }
     public float jumpForce = 225.0f;
 
     //GroundCheck stuff
@@ -22,6 +32,22 @@ public class PlayerScript : MonoBehaviour {
     Transform groundCheck;
     public LayerMask isGroundLayer = 8; // 3rd bit flipped, or 2^3
     public float groundCheckRadius = 0.02f;
+
+    private IEnumerator isInvincible;
+    private int _health;
+    public int health {
+        get => _health;
+        set {
+            // damage change, but invincible on
+            if (value < _health && isInvincible != null)
+                return;
+            _health = value > maxHealth
+                ? maxHealth : value;
+        }
+    }
+    [SerializeField]
+    private int maxHealth;
+    
 
     void Start() {
         // Load components
@@ -38,17 +64,28 @@ public class PlayerScript : MonoBehaviour {
             Debug.Log("Init GroundCheckRadius negative. Setting to positive.");
             groundCheckRadius *= -1;
         }
-        if (speed <= 0) {
+        if (baseSpeed == 0) {
+            Debug.Log("Init Speed 0. Setting to default value");
+            baseSpeed = 3;
+        } else if (baseSpeed < 0) {
             Debug.Log("Init Speed negative. Setting to positive.");
-            speed *= -1;
+            baseSpeed *= -1;
         }
-        if (jumpForce <= 0) {
+        if (jumpForce == 0) {
+            Debug.Log("Init JumpForce 0. SEtting to default value");
+            jumpForce = 300;
+        } else if (jumpForce < 0) {
             Debug.Log("Init JumpForce negative. Setting to positive.");
             jumpForce *= -1;
+        }
+        if (maxHealth <= 0) {
+            Debug.Log("Init maxHealth non-positive. Setting to 3.");
+            maxHealth = 3;
         }
 
         // Forced Settings
         rb.freezeRotation = true;
+        health = maxHealth;
 
         // Init groundCheck
         GameObject obj = new GameObject();
@@ -84,5 +121,28 @@ public class PlayerScript : MonoBehaviour {
             sr.flipX = false;
         if (hIn < 0)
             sr.flipX = true;
+    }
+
+    public void triggerInvincible(float duration) {
+        if (isInvincible != null)
+            StopCoroutine(isInvincible);
+        isInvincible = coroutineInvincible(duration);
+        StartCoroutine(isInvincible);
+    }
+    private IEnumerator coroutineInvincible(float duration) {
+        yield return new WaitForSeconds(duration);
+        isInvincible = null;
+    }
+    public void triggerSpeedier(float speedMod, float duration) {
+        if (isSpeedier != null)
+            StopCoroutine(isSpeedier);
+        isSpeedier = coroutineSpeedier(speedMod, duration);
+        StartCoroutine(isSpeedier);
+    }
+    private IEnumerator coroutineSpeedier(float speedMod, float duration) {
+        this.speedMod = speedMod;
+        yield return new WaitForSeconds(duration);
+        this.speedMod = 1;
+        isSpeedier = null;
     }
 }
