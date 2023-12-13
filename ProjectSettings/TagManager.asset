@@ -3,12 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Collectable
-  - PowerUp
-  - PickupSpawner
-  - Enemy
-  - PlayerProjectile
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -16,9 +11,9 @@ TagManager:
   - Ground
   - Water
   - UI
-  - Screen
-  - Interactable
-  - Player
+  - 
+  - 
+  - 
   - 
   - 
   - 
@@ -46,12 +41,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 337685133
-    locked: 0
-  - name: Foreground
-    uniqueID: 1058513107
-    locked: 0
-  - name: PlayArea
-    uniqueID: 3911944623
+  - name: Character
+    uniqueID: 1764572777
     locked: 0
