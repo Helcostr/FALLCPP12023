@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4712610088955828929}
   - component: {fileID: 8041146718656490385}
   - component: {fileID: 5561286649180456840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -104,7 +104,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: afd4da8c68e9c3e438950c46f99df155, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -162,10 +162,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e673c3ff8248ce640ad844483429b51b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseSpeed: 2
+  baseSpeed: 5
   maxSpeed: 50
   jumpForce: 350
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
   groundCheckRadius: 0.02
+  drag: 20
 --- !u!95 &5561286649180456840
 Animator:
   serializedVersion: 5

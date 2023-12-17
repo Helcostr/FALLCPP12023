@@ -31,39 +31,54 @@ public class PlayerCtrl : MonoBehaviour {
 
     //GroundCheck stuff
     private bool isGrounded;
+    private bool isJumping;
+    [SerializeField]
     private LayerMask groundLayerMask;
     [SerializeField]
     private float groundCheckRadius = 0.02f;
+
+    private Coroutine isInvincible;
 
     void Start() {
         // Set cache
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        gameObject.layer = LayerMask.NameToLayer("Player");
+        groundLayerMask = 1 << LayerMask.NameToLayer("Ground");
 
         // Validation
-        groundLayerMask = LayerMask.NameToLayer("Ground");
     }
-
-    // Update is called once per frame
     void Update() {
         float hIn = Input.GetAxisRaw("Horizontal");
+        bool intentMove = hIn != 0;
+
         isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayerMask);
 
+        rb.AddForce(new Vector2(hIn * speed, 0));
+        rb.velocity = new Vector3(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y, 0);
+        /*
         Vector3 vel = rb.velocity;
         rb.AddForce(new Vector2(hIn * speed,0));
         vel.x = Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed);
         rb.velocity = vel;
+        */
 
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded) {
             rb.AddForce(Vector2.up * jumpForce);
-        if (Input.GetAxisRaw("Vertical") < 0 && rb.velocity == Vector2.zero)
-            animator.Play("Crouch");
+            animator.Play("Jump");
+            isJumping = true;
+        } else if (rb.velocity.y < 0.01 && isGrounded)
+            isJumping = false;
+
         // Animations
+        animator.SetBool("crouch", Input.GetAxisRaw("Vertical") < 0 && rb.velocity == Vector2.zero);
+        animator.SetBool("lookUp", Input.GetAxisRaw("Vertical") > 0 && rb.velocity == Vector2.zero);
+        animator.SetBool("isJumping", isJumping);
         animator.SetBool("onGround", isGrounded);
+        animator.SetFloat("hVel", Mathf.Abs(rb.velocity.x));
         animator.SetFloat("vVel", rb.velocity.y);
-        animator.SetFloat("hIn", Mathf.Abs(hIn));
-        animator.SetBool("intentMove", Input.GetAxisRaw("Horizontal") != 0);
+        animator.SetBool("intentMove", intentMove);
         //animator.SetBool("isFiring", Input.GetButtonDown("Fire1"));
 
         //animator.SetBool("isDumb", Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D));
@@ -73,5 +88,39 @@ public class PlayerCtrl : MonoBehaviour {
             sr.flipX = false;
         if (hIn < 0)
             sr.flipX = true;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("Enemy")) {
+            Enemy focus = collision.gameObject.GetComponent<Enemy>();
+            if (isInvincible != null) {
+                focus.kill();
+                return;
+            }
+
+
+            ContactPoint2D test = collision.GetContact(0);
+            if (
+                test.point.y > collision.gameObject.transform.position.y                
+            ) {
+                focus.kill();
+            } else {
+                GameManager.Instance.lives -= 10;
+            }
+            
+            rb.velocity = new Vector2(rb.velocity.x * -1f, 6f);
+        }
+    }
+    public void invincible() {
+        if (isInvincible != null)
+            StopCoroutine(isInvincible);
+        isInvincible = StartCoroutine(_invincible());
+    }
+    private IEnumerator _invincible() {
+        if (isInvincible == null)
+            GameManager.Instance.themeMusic();
+        yield return new WaitForSeconds(30f);
+        isInvincible = null;
+        GameManager.Instance.gameMusic();
     }
 }

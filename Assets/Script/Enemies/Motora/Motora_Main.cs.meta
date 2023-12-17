@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8d64fac6478f0543a41feb579ed6a08
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - smoke_spawn: {instanceID: 0}
+  - mainAnimation: {fileID: 9100000, guid: 7c7a66e1f8726af4ba3ef8e27fa5f58d, type: 2}
+  - smokeAnmiation: {fileID: 9100000, guid: 83c87cf021393f145b7671348f927d60, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
