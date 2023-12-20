@@ -319,8 +319,8 @@ TextureImporter:
         y: 232
         width: 40
         height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Beeton_Wings_Dead
+      name: _Beeton_Wings_Flap
       rect:
         serializedVersion: 2
         x: 25
@@ -651,7 +651,7 @@ TextureImporter:
       _Beeton_Fly: -159529458
       _Beeton_Shoot: -384489441
       _Beeton_Wings: 1428815937
-      _Beeton_Wings_Dead: -245399173
+      _Beeton_Wings_Flap: -245399173
       _Ganigani_Walk_1: -684855874
       _Ganigani_Walk_2: -2089626785
       _Motora_Smoke_1: 102945802

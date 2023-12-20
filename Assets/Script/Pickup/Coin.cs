@@ -4,10 +4,11 @@ using System.IO;
 using UnityEngine;
 using static UnityEngine.UI.Image;
 
-[RequireComponent(typeof(Animator),typeof(SpriteRenderer))]
+[RequireComponent(typeof(Animator),typeof(SpriteRenderer), typeof(Collider2D))]
 public class CoinPickup : MonoBehaviour {
     private Animator animator;
     private SpriteRenderer sr;
+    private Collider2D hitbox;
     public int dupeAmt;
     [SerializeField]
     private Transform direction;
@@ -20,6 +21,8 @@ public class CoinPickup : MonoBehaviour {
             animator = GetComponent<Animator>();
         if (!sr)
             sr = GetComponent<SpriteRenderer>();
+        if (!hitbox)
+            hitbox = GetComponent<Collider2D>();
         animator.runtimeAnimatorController = ctrl;
         sr.color = new Color(1,.5f,.5f);
         sr.sortingLayerName = "Item";
@@ -40,6 +43,8 @@ public class CoinPickup : MonoBehaviour {
     }
     protected virtual void OnTriggerEnter2D(Collider2D other) {
         if (!other.CompareTag("Player")) return;
+        hitbox.isTrigger = true;
+        hitbox.enabled = false;
         GameManager.Instance.lives += 1;
         animator.Play("Pickup");
         GameManager.Instance.playSound(coinCollect);

@@ -1,0 +1,2233 @@
+fileFormatVersion: 2
+guid: fa2c4c9cc8692fe4091b33daf5413003
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f3529bbad8e8140884d0e75f100337
+      internalID: 1407675394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d239819f8d7208b408bcecca9bac081b
+      internalID: -1469240832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bbf42032b92c942bfd62a460bfc6b6
+      internalID: -1889070937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_3
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232ccf07b568394aa41b73f552e1558
+      internalID: -625206907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_4
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7c7cc1f07c0254eb9a62715631bd25
+      internalID: 1710022897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee707172c7fd72b4a88bc87cda651497
+      internalID: -489752475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de10a2eba8538574fae75a89630d2459
+      internalID: 1952479070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 49
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 407ad9b0630c9774595b31bc9ca2821b
+      internalID: -419507190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_8
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 5
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7c45f257dfe734796abf1ac82de060
+      internalID: -850611193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84e17b9e3584b846a683ab6e4a08327
+      internalID: 479273937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 49
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182a7acc1a5061418af2a77ff4fc688
+      internalID: -58938252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_11
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125270114ec3a1b4b98723cb0e8cd7aa
+      internalID: 1758735030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_12
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 49
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514f75ba6557c474d8ed03bc70e69c38
+      internalID: 1308715801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 49
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5b9149193793848ab4ebec8449aaa8
+      internalID: 204137095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_14
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251d6ccaac6245540932f1a15dff34d9
+      internalID: -1050577435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_15
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03208ae2e9493894c9daacb8f8ac9c60
+      internalID: 1618458765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 49
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c22df5ba04d0424da1dd551936eb9b2
+      internalID: 1615459437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e20bd3736d1b145b2abfe40e4e4376
+      internalID: -1897271290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_18
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80823e2f8decfe7449f56bd0230c21ea
+      internalID: -88361946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_19
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b14ed724ba8b6e4086e65b1a34035b9
+      internalID: 895805601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_20
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c05719c281374c93fa8d03addaa0e
+      internalID: 1146610674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_21
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 49
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c186e4262c80c5429808ed841117000
+      internalID: -173402432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_22
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 49
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba72b5ed207d7e44bb1cf4a018b4afb3
+      internalID: 1580532299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_23
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 49
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acca22234637d6641b4f1b52decb4777
+      internalID: -626465858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_24
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ecd6fc87e8b6444bf5920b47c66b0d
+      internalID: -1494518807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_25
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 49
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fa688c63e88734ebbfeeed07ab3b85
+      internalID: -2000454252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8d4d0871986fe449a040be65275028
+      internalID: 2092507308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_27
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13d838e1e196b44d8c98bcbae0d4b78
+      internalID: -1102432684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241a9995fd1890e4ea42f89940067b45
+      internalID: -13255001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_29
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c03dea1601320f478532c53af52e193
+      internalID: -1301119786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_30
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccefa58a80d9f1949b248b783f690165
+      internalID: -2044590678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_31
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bd9626a20030b41b7a8c3e8d2983db
+      internalID: -1643519851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_32
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936ad3648b3d2d741966322b80891702
+      internalID: 316396288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 34
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7664dd7d3fdd4d4eb82b51279bc6545
+      internalID: 1269149109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_34
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 34
+        width: 5
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4942768d34ffa34ca455c69049598a4
+      internalID: 332131950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_35
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2ee8c637c515146b1b36482791f5a1
+      internalID: -747963736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_36
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 34
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047b2f86431564649aff02381c8406c4
+      internalID: -555010904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_37
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c444bb89edf9d6c468e9cf35bec3ca6d
+      internalID: 1745336327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_38
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 34
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab300e7821a88554b9ee23a5342506bb
+      internalID: 196634620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_39
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 34
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8fd9170679db4c42b5226ceeb4da4b8
+      internalID: -1227726187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_40
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691135b3649f51243809ec51e956a3af
+      internalID: 881517857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_41
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c410d7d108c98409f7ea9424bbbdf0
+      internalID: -1401325231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_42
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 34
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2557acddf99204fb71ea7fe4f13f1a
+      internalID: -983386949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_43
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f95ffeaf630cb9641a0ca190bd41a1ec
+      internalID: -2137669221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_44
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8bda1d0ad8c9c4dac905250115c7a0
+      internalID: -1305853675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_45
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8eb3365dd3281f49902c2c7b36cc309
+      internalID: 1394710015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28532dee95ec82b4f870b66e6fd643d6
+      internalID: 1518720318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_47
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 34
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0325d5908181f439d1c63c56db99c4
+      internalID: 142255751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_48
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 10
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62622cef9c24dd45a84caeeeb4adea0
+      internalID: 1499360388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_49
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 34
+        width: 11
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b10a198a8ef644ad26cd7e99f06f5
+      internalID: -413423859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_50
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f405de2c0bf14c9c9e3c9d6aa8343
+      internalID: 554778676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_51
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 34
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c53751fcab786340ac6577290628991
+      internalID: -1083357939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bfe9a5317515a4eaccd57ff2b85ecc
+      internalID: 2124882782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_53
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 16
+        width: 6
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0009a44fdc2703246b70368f4b5ca1d5
+      internalID: 1873479399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_54
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cd767eab395e54fa26fb3f13ba22be
+      internalID: 1075414010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_55
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c2030ee6ddd6644b5d35d0b6b1a707
+      internalID: 1041500801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_56
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241607de86066264694fa807d46aa84c
+      internalID: 998333729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_57
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5927d3d857dc1340b182712295b1d63
+      internalID: 1242389665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_58
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffaf5389e1fd92489bf95901b86f459
+      internalID: 2068769940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_59
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4672f7d9a5432248bfa3a55f0fc85f2
+      internalID: -808456943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_60
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0769e0e159ab39d4e821612eec0389d3
+      internalID: 2124822125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_61
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908c462b24788444e982a0d9b3f62486
+      internalID: 674743274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 20
+        width: 9
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463b22416b985bc43b734f47b1b14d8c
+      internalID: 1079879278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 20
+        width: 5
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cb277aa7f86ac49b0a15d4c2b0fa98
+      internalID: -1257596581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_64
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 20
+        width: 9
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a93bf2c2b2ff549b7b9863ee9d4214
+      internalID: -777747794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 5
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fcff62427893045ae32c7fd37ccbee
+      internalID: -1220502874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 16
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8440a53fda0433a4a973c76d86b3aa85
+      internalID: 897960311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_67
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 23
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825bbb9dcfa1a1348a0d5bbdbc1e8cc4
+      internalID: 1028840087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_68
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 105
+        height: 32
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47fdaf0a5fdbe0489470b5af0132c7a
+      internalID: -893988271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f8614332df0bb42837a6bc2bf28c27
+      internalID: -1995135297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_70
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 16
+        width: 5
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c229a708ac32f2e4e8b27f67e236bb01
+      internalID: 745209374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_71
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 16
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd100b29b7254946bed75fb4ef0d65d
+      internalID: -49343147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_72
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6710ef7bf03226a4aa06d49e4668c173
+      internalID: -859843889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_73
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1
+        width: 6
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321ab2ba7ed7bfd47a920edebb63e5f6
+      internalID: -1821111584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_74
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e3849781010ac45858e6a9a687ef51
+      internalID: 939109594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_75
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4a8a290d8fc094595c221d19d1fb3f
+      internalID: 1247117506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_76
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e570d165c53c9d346bf9836cd9eae5b2
+      internalID: 1889779593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_77
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34841c24bc0878f4c8c7880a1d9f683c
+      internalID: 1454454305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_78
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cf53b38b0d95a4e9e0e3008106f008
+      internalID: -1716670006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_79
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184400f42aa5dbc43960e997350157c7
+      internalID: -1852447901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_80
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85af00d8f3ab9304fbf07f7e6ad569b6
+      internalID: -185354510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_81
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe6383618165df449ba1a06c90fa7b5
+      internalID: -597815074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_82
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 9
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012e71c64924e4f41ae08f1d6a76946c
+      internalID: -2094517513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_83
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 5
+        width: 5
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2619daa319f4a834e94cb18881b2b89d
+      internalID: -459529179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_84
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 5
+        width: 9
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a7b97fa50ea2f4f8f4105e1f7442fb
+      internalID: 1139606076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 5
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ecc0c0676e5174bb2157eef661c60d
+      internalID: -1390493961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_86
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 9
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ed1e62f8792648b8da173216270f5
+      internalID: -1555109988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_87
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 8
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbfa6e9cfb923d4b83b507beef13e81
+      internalID: 1445414789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_88
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7637b55aa55607349a942ea2eb276ae2
+      internalID: 746506698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_89
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 5
+        height: 7
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb2e069b612f5b4d85b7491624483e0
+      internalID: 1359308940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style
+        (1)_90
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 1
+        width: 5
+        height: 5
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9e7580f4ba7a04fb249bdfdc053f24
+      internalID: 1481571908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_0: 1407675394
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_1: -1469240832
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_10: -58938252
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_11: 1758735030
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_12: 1308715801
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_13: 204137095
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_14: -1050577435
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_15: 1618458765
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_16: 1615459437
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_17: -1897271290
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_18: -88361946
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_19: 895805601
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_2: -1889070937
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_20: 1146610674
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_21: -173402432
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_22: 1580532299
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_23: -626465858
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_24: -1494518807
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_25: -2000454252
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_26: 2092507308
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_27: -1102432684
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_28: -13255001
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_29: -1301119786
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_3: -625206907
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_30: -2044590678
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_31: -1643519851
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_32: 316396288
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_33: 1269149109
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_34: 332131950
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_35: -747963736
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_36: -555010904
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_37: 1745336327
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_38: 196634620
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_39: -1227726187
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_4: 1710022897
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_40: 881517857
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_41: -1401325231
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_42: -983386949
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_43: -2137669221
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_44: -1305853675
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_45: 1394710015
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_46: 1518720318
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_47: 142255751
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_48: 1499360388
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_49: -413423859
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_5: -489752475
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_50: 554778676
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_51: -1083357939
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_52: 2124882782
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_53: 1873479399
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_54: 1075414010
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_55: 1041500801
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_56: 998333729
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_57: 1242389665
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_58: 2068769940
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_59: -808456943
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_6: 1952479070
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_60: 2124822125
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_61: 674743274
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_62: 1079879278
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_63: -1257596581
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_64: -777747794
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_65: -1220502874
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_66: 897960311
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_67: 1028840087
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_68: -893988271
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_69: -1995135297
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_7: -419507190
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_70: 745209374
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_71: -49343147
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_72: -859843889
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_73: -1821111584
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_74: 939109594
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_75: 1247117506
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_76: 1889779593
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_77: 1454454305
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_78: -1716670006
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_79: -1852447901
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_8: -850611193
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_80: -185354510
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_81: -597815074
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_82: -2094517513
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_83: -459529179
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_84: 1139606076
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_85: -1390493961
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_86: -1555109988
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_87: 1445414789
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_88: 746506698
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_89: 1359308940
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_9: 479273937
+      Custom Edited - Sonic the Hedgehog Customs - HUD Font Sonic Mania-Style (1)_90: 1481571908
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

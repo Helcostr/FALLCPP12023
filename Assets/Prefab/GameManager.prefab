@@ -49,6 +49,7 @@ MonoBehaviour:
   theme_intro: {fileID: 8300000, guid: 6aa4b3954486c89418fdd4725d11d694, type: 3}
   theme_loop: {fileID: 8300000, guid: c347650adab757440aff1bffa8e6da1d, type: 3}
   gameOverMusic: {fileID: 8300000, guid: 617b7c34749762f40bb3ca2719212cf8, type: 3}
+  youWinMusic: {fileID: 8300000, guid: 4a161dd921586804e8532f86c8a38c5b, type: 3}
   mixGroupMusic: {fileID: 7725482201203108397, guid: 18aba4afcf66c2f45ab10a53caed8776, type: 2}
   mixGroupSFX: {fileID: -7978865967587762035, guid: 18aba4afcf66c2f45ab10a53caed8776, type: 2}
   maxLives: 5

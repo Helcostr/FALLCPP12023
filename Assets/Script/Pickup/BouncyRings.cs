@@ -1,13 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BouncyRings : CoinPickup {
     private bool ready = false;
+    private Rigidbody2D rb;
     protected override void Start() {
         base.Start();
+        rb = GetComponent<Rigidbody2D>();
     }
     private void OnCollisionEnter2D(Collision2D collision) {
+        if (!ready) return;
+        if (!collision.collider.CompareTag("Player")) return;
+        Destroy(rb);
         OnTriggerEnter2D(collision.collider);
     }
 

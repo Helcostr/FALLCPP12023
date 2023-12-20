@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
+using TMPro;
 using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,12 +15,36 @@ public class MenuManager : MonoBehaviour {
     private Button settingsButton;
     [SerializeField]
     private Button stopButton;
+    [SerializeField]
+    private string title;
+    private int randomIndex;
+    [SerializeField]
+    private TMP_Text sonicTitleRef;
+    private Animator anim;
 
-    void Start() {
+    IEnumerator Start() {
+        anim = GetComponent<Animator>();
+
         if (playButton)
             playButton.onClick.AddListener(() => GameManager.Instance.startGame());
         if (stopButton)
             stopButton.onClick.AddListener(() => GameManager.Instance.quitGame());
+        while(true) {
+            sonicTitleRef.text = toSpriteText(title);
+            yield return new WaitForSeconds(1 / (2*anim.GetCurrentAnimatorClipInfo(0)[0].clip.frameRate));
+        }
+    }
+
+    string toSpriteText(string text) {
+        return string.Join("", text.ToCharArray(0, text.Length)
+            .Select((e,i) => "<sprite=" + ((i>=randomIndex?Random.Range(0,26) : (int)e - (int)'a') + 26).ToString() + ">"));
+    }
+
+    IEnumerator triggerText() {
+        while (randomIndex < title.Length) {
+            randomIndex++;
+            yield return new WaitForSeconds(1/anim.GetCurrentAnimatorClipInfo(0)[0].clip.frameRate);
+        }
     }
 }
 

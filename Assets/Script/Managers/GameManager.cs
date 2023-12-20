@@ -1,10 +1,8 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor.Timeline;
 using UnityEngine.Audio;
-using Unity.VisualScripting;
+
 
 [DefaultExecutionOrder(-1)]
 public class GameManager : MonoBehaviour {
@@ -18,6 +16,8 @@ public class GameManager : MonoBehaviour {
     private AudioClip theme_loop;
     [SerializeField]
     private AudioClip gameOverMusic;
+    [SerializeField]
+    private AudioClip youWinMusic;
     [SerializeField]
     private AudioMixerGroup mixGroupMusic;
     [SerializeField]
@@ -78,7 +78,6 @@ public class GameManager : MonoBehaviour {
 
         SceneManager.activeSceneChanged += sceneChanged;
         sceneMusic(SceneManager.GetActiveScene().name);
-        Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Coins"), LayerMask.NameToLayer("Coins"), true);
     }
     private void spawnBouncyRings(int amt) {
         if (amt <= 0) return;
@@ -102,6 +101,9 @@ public class GameManager : MonoBehaviour {
         switch (name) {
             case "Level":
                 gameMusic();
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Coins"), LayerMask.NameToLayer("Coins"), true);
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Coins"), LayerMask.NameToLayer("Enemy"), true);
+                Physics2D.IgnoreLayerCollision(LayerMask.NameToLayer("Player"), LayerMask.NameToLayer("Enemy"), false);
                 break;
             case "Title":
                 themeMusic();
@@ -109,6 +111,11 @@ public class GameManager : MonoBehaviour {
             case "GameOver":
                 musicPlayer.loop = false;
                 musicPlayer.clip = gameOverMusic;
+                musicPlayer.Play();
+                break;
+            case "YouWin":
+                musicPlayer.loop = false;
+                musicPlayer.clip = youWinMusic;
                 musicPlayer.Play();
                 break;
         }
@@ -119,6 +126,7 @@ public class GameManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             switch (SceneManager.GetActiveScene().name) {
                 case "GameOver":
+                case "YouWin":
                     SceneManager.LoadScene("Title");
                     break;
                 case "Level":

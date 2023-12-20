@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
-[RequireComponent(typeof(SpriteRenderer), typeof(Animator), typeof(Rigidbody2D))]
+[RequireComponent(typeof(SpriteRenderer), typeof(Animator), typeof(Collider2D))]
 public class Enemy : MonoBehaviour {
     protected SpriteRenderer sr;
     protected Animator anim;
-    protected Rigidbody2D rb;
+    
     protected Collider2D col;
     protected bool isDead = false;
     [SerializeField]
@@ -11,8 +11,7 @@ public class Enemy : MonoBehaviour {
     protected virtual void Start() {
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
-        rb = GetComponent<Rigidbody2D>();
-        col = rb.GetComponent<Collider2D>();
+        col = GetComponent<Collider2D>();
     }
 
     public virtual void kill() {
@@ -20,7 +19,7 @@ public class Enemy : MonoBehaviour {
         anim.Play("Death");
         GameManager.Instance.score += 100;
         isDead = true;
-        rb.bodyType = RigidbodyType2D.Static;
+        col.isTrigger = true;
         col.enabled = false;
         GameManager.Instance.playSound(death);
     }

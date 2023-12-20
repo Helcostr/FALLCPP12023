@@ -15,6 +15,7 @@ public class PlayerCtrl : MonoBehaviour {
     private Animator animator;
     private SpriteRenderer sr;
     private Rigidbody2D rb;
+    private Collider2D col;
 
     // Speed
     [SerializeField]
@@ -38,12 +39,14 @@ public class PlayerCtrl : MonoBehaviour {
     private float groundCheckRadius = 0.02f;
 
     private Coroutine isInvincible;
+    private Coroutine isDmg;
 
     void Start() {
         // Set cache
         animator = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<Collider2D>();
         gameObject.layer = LayerMask.NameToLayer("Player");
         groundLayerMask = 1 << LayerMask.NameToLayer("Ground");
 
@@ -53,7 +56,15 @@ public class PlayerCtrl : MonoBehaviour {
         float hIn = Input.GetAxisRaw("Horizontal");
         bool intentMove = hIn != 0;
 
-        isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayerMask);
+        ContactPoint2D[] allContact = new ContactPoint2D[5];
+        isGrounded = false;
+        for(int i = 0, max = col.GetContacts(allContact); i < max; ++i) {
+            if (allContact[i].collider.gameObject.layer == LayerMask.NameToLayer("Ground")) {
+                isGrounded = true;
+                break;
+            }
+        }
+        //isGrounded = Physics2D.OverlapCircle(transform.position, groundCheckRadius, groundLayerMask);
 
         rb.AddForce(new Vector2(hIn * speed, 0));
         rb.velocity = new Vector3(Mathf.Clamp(rb.velocity.x, -maxSpeed, maxSpeed), rb.velocity.y, 0);
@@ -105,11 +116,35 @@ public class PlayerCtrl : MonoBehaviour {
             ) {
                 focus.kill();
             } else {
-                GameManager.Instance.lives -= 10;
+                dmg(10);
             }
             
             rb.velocity = new Vector2(rb.velocity.x * -1f, 6f);
         }
+    }
+
+    public void dmg(int amt) {
+        if (isDmg == null)
+            isDmg = StartCoroutine(_dmg(amt));
+    }
+    IEnumerator _dmg(int amt) {
+        Color transparent = Color.white;
+        transparent.a = .5f;
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), true);
+        GameManager.Instance.lives -= amt;
+        sr.color = transparent;
+        yield return new WaitForSeconds(.5f);
+        sr.color = Color.white;
+        yield return new WaitForSeconds(.5f);
+        sr.color = transparent;
+        yield return new WaitForSeconds(.5f);
+        sr.color = Color.white;
+        yield return new WaitForSeconds(.5f);
+        sr.color = transparent;
+        yield return new WaitForSeconds(.5f);
+        sr.color = Color.white;
+        Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Enemy"), false);
+        isDmg = null;
     }
     public void invincible() {
         if (isInvincible != null)

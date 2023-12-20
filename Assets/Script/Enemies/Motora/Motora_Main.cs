@@ -2,7 +2,7 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 
-
+[RequireComponent(typeof(Rigidbody2D))]
 public class Motora_Main : Enemy {
     [SerializeField]
     private float speed = 1f;
@@ -17,7 +17,7 @@ public class Motora_Main : Enemy {
     [SerializeField]
     private RuntimeAnimatorController smokeAnmiation;
     private bool goingLeft = true;
-    
+    private Rigidbody2D rb;
     [SerializeField]
     private Transform[] boundry;
     private float left;
@@ -26,9 +26,11 @@ public class Motora_Main : Enemy {
     // Start is called before the first frame update
     protected override void Start() {
         base.Start();
+        rb = GetComponent<Rigidbody2D>();
         anim.runtimeAnimatorController = mainAnimation;
         rb.freezeRotation = true;
         float[] boundryFloats = boundry.Select(each => {
+            each.gameObject.SetActive(false);
             return each.position.x;
         }).ToArray<float>();
         right = Mathf.Max(boundryFloats);
@@ -36,7 +38,6 @@ public class Motora_Main : Enemy {
 
         smokeCoroutine = StartCoroutine(spawnSmoke());
     }
-
     IEnumerator spawnSmoke() {
         while (true) {
             yield return new WaitForSeconds(smoke_delay);
@@ -70,5 +71,6 @@ public class Motora_Main : Enemy {
     public override void kill() {
         base.kill();
         if (smokeCoroutine != null) StopCoroutine(smokeCoroutine);
+        rb.bodyType = RigidbodyType2D.Static;
     }
 }

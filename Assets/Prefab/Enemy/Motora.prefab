@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 4922031499701238524}
   - component: {fileID: 8414951607894699332}
   - component: {fileID: 2186685648387431535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Motora
   m_TagString: Enemy
   m_Icon: {fileID: 0}
